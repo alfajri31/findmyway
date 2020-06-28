@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-weight: 1000;
+  font-family: "Lato"; }
+
+.header__main {
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  background-color: purple;
+  overflow: hidden;
+  padding: 10px 0px; }
+  .header__main li {
+    float: left;
+    margin-right: 4rem;
+    padding-left: 20px; }
+    .header__main li a {
+      text-decoration: none;
+      color: #fff; }
+  .header__main span li {
+    float: right; }
+
+.header__main input[type=text] {
+  border-radius: 5px;
+  border: none;
+  padding: 5px; }
+  .header__main input[type=text]:focus {
+    outline: none; }
+
+.caraousel {
+  background-color: red; }
+  .caraousel__first {
+    content: url("../../img/photo1.jpg");
+    width: 80%;
+    position: absolute; }
+  .caraousel__second {
+    content: url("../../img/photo2.jpg");
+    position: absolute;
+    max-width: 80%; }
+  .caraousel__button-right {
+    padding-left: 50px;
+    text-decoration: none;
+    position: absolute; }
+  .caraousel__button-left {
+    text-decoration: none;
+    position: absolute; }
+  .caraousel a.caraousel__button-right:hover {
+    color: blue; }
+  .caraousel a.caraousel__button-left:hover {
+    color: blue; }
+
+.landing {
+  background-color: #eee; }
+  .landing__content {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white; }
+  .landing__main {
+    padding-top: 30%;
+    margin-left: 5%;
+    margin-right: 50%; }
+
+.landing__results {
+  width: 90%;
+  margin: 0 auto;
+  border: solid 1px;
+  height: 20%; }
+
+.footer__main {
+  background-color: purple;
+  color: white;
+  width: 80%;
+  margin: 0 auto; }
+
+.frame-popup:target {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw; }
+
+.frame-popup__sub {
+  position: fixed;
+  background-color: whitesmoke;
+  transform: translateX(20%);
+  width: 70%;
+  padding-bottom: 600px; }
+
+.frame-popup .circle {
+  border: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px; }
+
+.frame-popup .line-horizontal {
+  width: 10px;
+  border-style: solid;
+  border-width: thin; }
+
+.frame-popup .line-vertical {
+  width: 10px;
+  border-style: solid;
+  border-width: thin;
+  transform: rotate(90deg); }

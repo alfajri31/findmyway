@@ -1,0 +1,44 @@
+.header__main {
+    width: $width-inner-page;
+    margin: 0 auto;
+    list-style: none;
+    background-color: purple;
+    overflow: hidden;
+    padding: 10px 0px;
+
+    & li {
+        float: left;
+        margin-right: $main__header-space;
+        padding-left: 20px;
+        & a {
+            text-decoration: none;
+            color: $main__header-color-white;
+        }
+    }
+
+    & span li {
+        float: right;
+    }
+
+    // & li:nth-child(4) {
+    //     content: url('../../img/playstore.png');
+    //     width:16.5%;
+    //     background-color: white;
+      
+    // }
+
+    // & li:nth-child(5) {
+    //     float: right;
+    // }
+
+    // & li:nth-child(6) {
+    //     float: right;
+    // }
+   
+}
+
+
+
+
+
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <%- include('../includes/version.ejs') %>
+    
+</head>
+<body>
+
+    <div class="background-base">
+
+        <%- include('../includes/header.ejs') %>
+        <section class="landing">
+            <div class="landing__content">
+                <div>What are you looking for?</div>
+                <input type="text" placeholder="Type Here"></input>
+                <button>GO GO!</button>
+                <div class="landing__results">
+
+                </div>
+            </div>
+        </section>  
+        <%- include('../includes/footer.ejs') %>
+    </div>
+
+</body>
+</html>

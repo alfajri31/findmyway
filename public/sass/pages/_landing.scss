@@ -1,0 +1,66 @@
+.caraousel {
+    background-color: red;
+
+    &__first {
+        content: url('../../img/photo1.jpg');
+        width: 80%;
+        position: absolute;
+       
+    
+    }
+    
+    &__second {
+        content: url('../../img/photo2.jpg');
+        position: absolute;
+        max-width: 80%;
+    }
+
+    &__button-right {
+        padding-left: 50px;
+        text-decoration: none;
+        position: absolute;
+    }
+
+    &__button-left {
+        text-decoration: none;
+        position: absolute;
+    }
+
+    & a.caraousel__button-right:hover {
+        color: blue;
+    }
+
+    & a.caraousel__button-left:hover {
+        color: blue;
+    }
+    
+}
+
+
+.landing {
+
+    background-color: #eee;   
+   
+    &__content {
+        width: $width-inner-page;
+        height: 100vh;
+        margin: 0 auto;  
+        background-color: white;
+    }
+
+    &__main {
+        padding-top: $vertical-main-content;
+        margin-left: $horizontal-left-content;
+        margin-right: $horizontal-right-content;
+     
+        &__desc {
+           
+        }
+        
+        &__start {
+
+        }   
+
+    }
+}
+

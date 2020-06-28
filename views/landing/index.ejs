@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/caraousel.js"></script>
+
+
+    <%- include('../includes/version.ejs') %>
+</head>
+<body>
+    <div class="landing">
+            <%- include('../includes/header.ejs') %>
+            <section class="landing">
+                <div class="landing__content">
+                    <%- include('../includes/caraousel.ejs') %> 
+                    <div class="landing__main"> 
+                        <div class="landing__main__desc">
+                            <p>Lo   rem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolores odit illum dolorem nulla deserunt recusandae, non voluptas libero vel, minus mollitia animi ipsam hic perspiciatis eum? Temporibus, inventore tenetur.</p>
+                            <button><a href="#popup">Mulai Kalkulasi</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="popup" class="frame-popup">
+                    <div class="frame-popup__sub">
+                        <a href="#" style="padding-left:97%;">X</a>
+                        <label>bahan pokok</label><input type="text">
+                        <div class="circle"></div>
+                        <div class="line-horizontal"></div>
+                        <div class="line-vertical"></div>
+                        <button>prediksi</button>
+                    </div>
+                    
+                </div> 
+            </section>
+    </div>
+
+</body>
+
+
+</html>
